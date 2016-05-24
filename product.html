@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="ssas/style.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    </head>
+<body>
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="page">
+    <div id="header" class="header">
+        <div class="top-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-11 col-sm-11 col-xs-11">
+                        <div class="text">
+                            <strong>Тотальная утилизация - скидки до 35%</strong>
+                        </div>
+                    </div>
+                    <div class="col-md-1 col-sm-1 col-xs-1">
+                        <a href="#" class="close"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="color-separator"></div>
+            <div class="shadow"></div>
+        </div>
+        <div class="top-row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 col-sm-1 col-xs-3">
+                        <div class="b-dropdown-menu" data-toggle="dropdown">
+                            <a href="/" class="b-top-menu-handler" role="menu" aria-labelledby="dLabel"></a>
+                            <div class="menu">
+                                <div class="item"><a href="#">Каталог</a></div>
+                                <div class="item"><a href="#">ИТ услуги</a></div>
+                                <div class="item"><a href="#">Самовывоз</a></div>
+                                <div class="item"><a href="#">Доставка</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-8 hidden-xs hidden-sm">
+                        <div class="menu-row">
+                            <div class="menu-item"><a href="#">Каталог</a></div>
+                            <div class="menu-item"><a href="#">ИТ услуги</a></div>
+                            <div class="menu-item"><a href="#">Самовывоз</a></div>
+                            <div class="menu-item"><a href="#">Доставка</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-7 no-padding">
+                        <div class="login-wrap ">
+                            <a href="#" class="js-open-reg item">Вход</a>
+                            <a href="#" class="js-open-reg item">Регистрация</a>
+                        </div>
+                    </div>
+                    <div class="visible-xs col-xs-2">
+                        <div class="search">
+                            <button data-target="#bs-example-navbar-collapse-12" data-toggle="collapse" class="navbar-toggle icon-search" type="button"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-row">
+            <div class="container">
+                <div class="visible-xs">
+                    <div id="bs-example-navbar-collapse-12" class="collapse navbar-collapse">
+                        <div class="b-search">
+                            <input type="text" class="input-search" placeholder="Поиск среди более 35 000 товаров"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5 col-sm-5 col-xs-6">
+                        <div class="row">
+                             <div class="col-md-6 col-sm-5 col-xs-12">
+                                <a href="/" class="logo"><img src="img/logo.png"/></a>
+                             </div>
+                             <div class="col-md-6 col-sm-7 col-xs-12 hidden-xs no-padding">
+                                <div class="phone-wrap">
+                                    <div class="phone">
+                                        <a href="tel:12345789">+7 495 98 165 98</a>
+                                    </div>
+                                    <a href="#" class="link js-open-call-form">Позвонить мне</a>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-sm-3 no-padding hidden-xs">
+                        <div class="b-search">
+                            <input type="text" class="input-search" placeholder="Поиск среди более 35 000 товаров"/>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 right-aligned">
+                        <div class="b-cart ">
+                            <div class="cart-wrap js-cart-notify">
+                                <div class="icon"></div>
+                                <div class="price-wrap">
+                                    <div class="line"><span class="number">23</span> <span class="label">ед.</span></div>
+                                    <div class="line"><span class="number">25050</span> <span class="label">руб</span></div>
+                                </div>
+                            </div>
+                            <div class="cart-notify" id="cart-notify">
+                                <a href="#" class="close-button close-cart-notify"></a>
+                                <div class="product">
+                                    <div class="image-wrap"><img class="image" src="img/product1.jpg"/></div>
+                                    <div class="info-wrap">
+                                        <div class="name-wrap"><div class="name">Latitude 3550 Core i5-5200U 2.2GHz, 15.6" FHD</div></div>
+                                        <div class="brand">Chiaro (Германия)</div>
+                                    </div>
+                                    <div class="price">5600 <span class="cy">руб</span></div>
+                                </div>
+                                <a href="#" class="cart-link" onclick=""><div class="link">Перейти в корзину</div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-product">
+            <div class="container">
+                <div class="b-breadcrumbs">
+                    <a href="/" class="link">Главная</a>
+                    <a href="#" class="link">Каталог</a>
+                    <a href="#" class="link">Мониторы</a>
+                    <a href="#" class="link">19 дюймов</a>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="title-mob visible-xs">
+                            <h2>Ноутбук HP EliteBook Folio Ultrabook 1040 Core i5-5300U 2.3GHz,14" HD+ LED AG Cam,8GB DDR3L(4GB FIX </h2>
+                        </div>
+                        <div class="b-item-image">
+                            <div class="item-image">
+                                <a class="fancybox" href="img/image.jpeg" rel="gallery1"><img class="image" src="img/image.jpeg"></a>
+                            </div>
+                            <a class="zoom" href="#" onclick="$('.item-image a').click(); return false;"></a>
+                        </div>
+                        <div class="b-item-additional-images owl-carousel owl-theme owl-loaded">
+                            <div class="item">
+                                <a href="img/smaller.jpg" rel="gallery1"><img src="img/smaller.jpg"></a>
+                            </div>
+                            <div class="item">
+                                <a href="img/smaller.jpg" rel="gallery1"><img src="img/smaller.jpg"></a>
+                            </div>
+                            <div class="item">
+                                <a href="img/smaller.jpg" rel="gallery1"><img src="img/smaller.jpg"></a>
+                            </div>
+                            <div class="item">
+                                <a href="img/smaller.jpg" rel="gallery1"><img src="img/smaller.jpg"></a>
+                            </div>
+                            <div class="item">
+                                <a href="img/smaller.jpg" rel="gallery1"><img src="img/smaller.jpg"></a>
+                            </div>
+                            <div class="item">
+                                <a href="img/smaller.jpg" rel="gallery1"><img src="img/smaller.jpg"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                        <div class="item-info">
+                            <div class="row hidden-xs hidden-sm">
+                                <div class="col-md-4 col-xs-12">
+                                    <span class="brand">HP Inc.</span>
+                                </div>
+                                <div class="col-md-8 col-xs-12 right-aligned">
+                                    <div class="social">
+                                        <img src="img/soc.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 hidden-xs">
+                                    <h2>Ноутбук HP EliteBook Folio Ultrabook 1040 Core i5-5300U 2.3GHz,14" HD+ LED AG Cam,8GB DDR3L(4GB FIX </h2>
+                                </div>
+                            </div>
+                            <div class="row hidden-xs">
+                                <div class="col-md-6 col-sm-6">
+                                    <span class="label">14" дюймов</span>
+                                </div>
+                                <div class="col-md-6 col-sm-6 right-aligned">
+                                    <span class="label">код: L8T48EA#ACB</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <div class="info-wrap">
+                                        <div class="item row">
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <span class="name">Наличие</span>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-8">
+                                                <span class="value">
+                                                    Есть в наличии                              
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="item row">
+                                            <div class="col-xs-12 col-sm-6 col-md-4">
+                                                <span class="name">Бренд</span>
+                                            </div>
+                                            <div class="col-xs-12 col-sm-6 col-md-8">
+                                                <span class="value">HP Inc.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 col-xs-12 col-sm-12">
+                                    <div class="price-block">   
+                                        <div>
+                                            <div class="price-wrap col-sm-6 col-md-5 col-xs-6 no-padding">
+                                                <div class="new">100 883 <span class="cy">руб</span></div>
+                                                <!--div class="old">58 999 <span class="cy">руб</span></div-->
+                                            </div>
+                                            <div class="col-sm-6 col-md-1 col-xs-6 no-padding">
+                                                <div class="e-counter">
+                                                    <a href="#" class="plus">+</a>
+                                                    <input name="qty" value="1" class="number qty" type="text">
+                                                    <a href="#" class="minus">-</a>
+                                                </div>
+                                            </div>
+                                             <div class="b-button cart-button size-small v-orange-grad col-sm-6 col-md-3 col-xs-6 no-padding">
+                                                <a href="#" class="link" data-id="54037">Заказать</a>
+                                            </div>
+                                            <div class="b-button one-click-buy v-orange-stroke col-sm-6 col-md-3 col-xs-6 no-padding">
+                                                <a href="#" data-id="54037" data-article="L8T48EA#ACB" data-name="Ноутбук HP EliteBook Folio Ultrabook 1040 Core i5-5300U 2.3GHz,14&amp;quot; HD+ LED AG Cam,8GB DDR3L(4GB FIX ">Купить<br>в 1 клик</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="delivery-block-today">
+                                        <p>Успейте заказать: <strong id="clock">12:00:00</strong></p>
+                                        <p>Доставка и самовывоз сегодня</p>
+                                    </div>
+
+                                    <div class="delivery-block e-text">
+                                        <p>Доставим завтра:</p>
+                                        <p><strong>Москва</strong>: Бесплатно</p>
+                                        <p><strong>За МКАД до 10 км</strong>: Бесплатно</p>
+                                        <p><strong>За МКАД 10 км и дальше</strong>: 349 р. + 30 р. за км</p>
+                                        <p><strong><a href="/about/contacts/">Самовывоз</a></strong>: Бесплатно</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group visible-xs" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                Характеристики
+                              </a>
+                            </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        <div class="e-text">
+                            <table class="item_parameters" cellspacing="5">
+                                <tbody>
+                                    <tr class="even">
+                                        <td>Гарантия</td>
+                                        <td>3 года</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Размер жесткого диска, Гб</td>
+                                        <td>256</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>Тип оперативной памяти</td>
+                                        <td>DDR3L</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Объем оперативной памяти, Гб</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>USB</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Максимальный объем оперативной памяти, Гб</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>IEEE1394</td>
+                                        <td>Нет</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Слоты для оперативной памяти</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                Оплата
+                              </a>
+                            </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <div class="e-text">
+                            <h3>Оплата заказа</h3>
+                            <p>Оплатить заказ Вы можете следующими способами:</p>
+
+                            <p>Физическое лицо:<br>
+                            Картой Visa, MasterCard, Maestro при получении в пункте самовывоза. Без комиссии.<br>
+                            Картой Visa, MasterCard, Maestro при получении заказа - доставка.<br>
+                            Безналичный расчет на сайте через систему платежей ROBOKASSA<br>
+                            Безналичный расчет на основании счета через Сбербанк России<br>
+                            Наличными в офисе продаж в Москве<br>
+                            Наличными по адресу доставки - оплата курьеру</p>
+
+                            <p>Юридическое лицо:<br>
+                            По безналичному расчету на основании выставляемого счета</p>                    
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                Доставка
+                              </a>
+                            </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <div class="e-text">
+                                <h3>Доставка</h3>
+                                <p>При оформлении заказа онлайн или по телефону: +7(495) 98-165-98 в нашем интернет-магазине вы всегда можете заказать доставку товаров на дом или в офис с понедельника по пятницу. В выходные дни доставка не осуществляется.</p>
+                                <p>Доставка осуществляется на следующий день после оформления заказа. Стоимость доставки, а также наличие товара вы можете видеть в карточке товара, в правом верхнем углу.</p>
+
+                                <p><strong>Стоимость доставки</strong></p>
+
+                                <p>
+                                    <b>В пределах МКАД: 240 рублей</b><br>
+                                    Заказы общей суммой свыше 35 000 рублей по Москве - доставляются бесплатно!
+                                </p>
+                                <p>
+                                    <strong>За пределами МКАД (до 10 км включительно): 349 рублей</strong><br>
+                                    Заказы общей суммой свыше 70 000 рублей за МКАД до 10 км - доставляются бесплатно!
+                                </p>
+
+
+                                <p>
+                                    <strong>За пределами МКАД (свыше 10 км): 349 руб + 30 руб за каждый км</strong><br>
+                                </p>
+
+                                <p><strong>Условия доставки</strong></p>
+
+                                <p>Стоимость доставки не зависит от состава заказа.<br>
+                                    Оплатить заказ вы можете как наличными курьеру, так и картами Visa, MasterCard, Maestro.<br>
+                                    Доставка заказа осуществляется единовременно и по фиксированной цене.<br>
+                                    В том случае, если заказ состоит из нескольких наименований, одно из которых осуществляется бесплатно, то в данном случае весь заказ будет отправлен бесплатно!<br>
+                                    Стандартный интервал доставки: понедельник-пятница с 10-00 до 18-30</p>
+
+                                <p><strong>Правила доставки</strong></p>
+                                <p>Все заказы весом более 25 кг осуществляются до подъезда или пандуса. Заказы общим весом до 25 кг осуществляются до двери. В случае превышения веса заказа, менеджер магазина связывается с клиентом по контактному номеру, для оповещения клиента и согласования дальнейших действий.<br>
+                                    Просим обратить внимание на то, что наша компания оставляет за собой право не доставлять заказы в садово-огородные товарищества, места без асфальтового покрытия, на станции метрополитена, на режимные и секретные объекты, вокзалы, в парки, лесные массивы и пляжи, а также прочие места без указания точного адреса.</p>
+
+                                <p><strong>Доставка в регионы</strong></p>
+                                <p>Доставка товаров в регионы РФ осуществляются силами и по тарифам транспортной компании ДЕЛОВЫЕ ЛИНИИ. Произвести расчет стоимости доставки Вы можете самостоятельно при помощи калькулятора тут: http://www.dellin.ru/   </p>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabes hidden-xs">
+                    <ul class="nav nav-tabs">
+                      <li class="active"><a href="#inform" data-toggle="tab">Описание</a></li>
+                      <li><a href="#characteristics" data-toggle="tab">Характеристики</a></li>
+                      <li><a href="#pay" data-toggle="tab">Оплата</a></li>
+                      <li><a href="#delivery" data-toggle="tab">Доставка</a></li>
+                    </ul>
+                    <div class="tab-content">
+                      <div class="tab-pane active" id="inform">
+                        <div class="e-text">
+                            <ul>
+                                <li style="color: #464646;"><span style="font-size: 10pt; font-family: Verdana;"><b>Превосходное качество видео и звука.</b>&nbsp;Наслаждайтесь потрясающими впечатлениями от насыщенных и ярких цветов изображения на стильном экране с разрешением Full HD с широким углом обзора и превосходного звука, воспроизводимого с помощью двух встроенных динамиков мощностью 3&nbsp;Вт.</span></li>
+                                <li style="color: #464646;"><span style="font-size: 10pt; font-family: Verdana;"><b>Стильный дизайн.</b>&nbsp;Оцените изящество тонких глянцевых фронтальных панелей, прочность корпуса и удобство интуитивно понятных сенсорных кнопок.</span></li>
+                                <li style="color: #464646;"><span style="font-size: 10pt; font-family: Verdana;"><b>Надежность и удобство использования.</b>&nbsp;Монитор создан в соответствии с самыми современными экологическими и нормативными стандартами, кроме того, порты VGA и HDMI обеспечивают возможность подключения как к самым современным ПК, так и к ПК предыдущих поколений. На монитор распространяется расширенное обслуживание с заменой и гарантийные обязательства.</span></li>
+                            </ul>
+                        </div>
+                      </div>
+                      <div class="tab-pane" id="characteristics">
+                        <div class="e-text">
+                            <table class="item_parameters" cellspacing="5">
+                                <tbody>
+                                    <tr class="even">
+                                        <td>Гарантия</td>
+                                        <td>3 года</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Размер жесткого диска, Гб</td>
+                                        <td>256</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>Тип оперативной памяти</td>
+                                        <td>DDR3L</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Объем оперативной памяти, Гб</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>USB</td>
+                                        <td>2</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Максимальный объем оперативной памяти, Гб</td>
+                                        <td>8</td>
+                                    </tr>
+                                    <tr class="even">
+                                        <td>IEEE1394</td>
+                                        <td>Нет</td>
+                                    </tr>
+                                    <tr class="odd">
+                                        <td>Слоты для оперативной памяти</td>
+                                        <td>1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="pay">
+                        <div class="e-text">
+                            <h3>Оплата заказа</h3>
+                            <p>Оплатить заказ Вы можете следующими способами:</p>
+
+                            <p>Физическое лицо:<br>
+                            Картой Visa, MasterCard, Maestro при получении в пункте самовывоза. Без комиссии.<br>
+                            Картой Visa, MasterCard, Maestro при получении заказа - доставка.<br>
+                            Безналичный расчет на сайте через систему платежей ROBOKASSA<br>
+                            Безналичный расчет на основании счета через Сбербанк России<br>
+                            Наличными в офисе продаж в Москве<br>
+                            Наличными по адресу доставки - оплата курьеру</p>
+
+                            <p>Юридическое лицо:<br>
+                            По безналичному расчету на основании выставляемого счета</p>                    
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="delivery">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="e-text">
+                                <h3>Доставка</h3>
+                                <p>При оформлении заказа онлайн или по телефону: +7(495) 98-165-98 в нашем интернет-магазине вы всегда можете заказать доставку товаров на дом или в офис с понедельника по пятницу. В выходные дни доставка не осуществляется.</p>
+                                <p>Доставка осуществляется на следующий день после оформления заказа. Стоимость доставки, а также наличие товара вы можете видеть в карточке товара, в правом верхнем углу.</p>
+
+                                <p><strong>Стоимость доставки</strong></p>
+
+                                <p>
+                                    <b>В пределах МКАД: 240 рублей</b><br>
+                                    Заказы общей суммой свыше 35 000 рублей по Москве - доставляются бесплатно!
+                                </p>
+                                <p>
+                                    <strong>За пределами МКАД (до 10 км включительно): 349 рублей</strong><br>
+                                    Заказы общей суммой свыше 70 000 рублей за МКАД до 10 км - доставляются бесплатно!
+                                </p>
+
+
+                                <p>
+                                    <strong>За пределами МКАД (свыше 10 км): 349 руб + 30 руб за каждый км</strong><br>
+                                </p>
+
+                                <p><strong>Условия доставки</strong></p>
+
+                                <p>Стоимость доставки не зависит от состава заказа.<br>
+                                    Оплатить заказ вы можете как наличными курьеру, так и картами Visa, MasterCard, Maestro.<br>
+                                    Доставка заказа осуществляется единовременно и по фиксированной цене.<br>
+                                    В том случае, если заказ состоит из нескольких наименований, одно из которых осуществляется бесплатно, то в данном случае весь заказ будет отправлен бесплатно!<br>
+                                    Стандартный интервал доставки: понедельник-пятница с 10-00 до 18-30</p>
+
+                                <p><strong>Правила доставки</strong></p>
+                                <p>Все заказы весом более 25 кг осуществляются до подъезда или пандуса. Заказы общим весом до 25 кг осуществляются до двери. В случае превышения веса заказа, менеджер магазина связывается с клиентом по контактному номеру, для оповещения клиента и согласования дальнейших действий.<br>
+                                    Просим обратить внимание на то, что наша компания оставляет за собой право не доставлять заказы в садово-огородные товарищества, места без асфальтового покрытия, на станции метрополитена, на режимные и секретные объекты, вокзалы, в парки, лесные массивы и пляжи, а также прочие места без указания точного адреса.</p>
+
+                                <p><strong>Доставка в регионы</strong></p>
+                                <p>Доставка товаров в регионы РФ осуществляются силами и по тарифам транспортной компании ДЕЛОВЫЕ ЛИНИИ. Произвести расчет стоимости доставки Вы можете самостоятельно при помощи калькулятора тут: http://www.dellin.ru/   </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+            <div class="row margin-default">
+                <div class="col-md-10 col-sm-12 col-xs-12">
+                    <div class="base-block more-block">
+                        <div class="title">С этим товаром покупают</div>
+                        <div class="item-wrap">
+                            <div class="item">
+                                <div class="preview">
+                                    <div class="image-wrap"><div class="image"><img src="img/img1.jpg"></div></div>
+                                </div>
+                                <h3 class="name">Монитор Dell S2316H 23" LED Monitor BK/BK (IPS; 250 cd/m2; 1000:1; 6ms; 1920x1080; 178/178; VGA,D-Su</h3>
+                                <div class="price">12 332 <span class="cy">руб</span></div>
+                            </div>
+                            <div class="plus">+</div>
+                                <div class="item">
+                                    <a href="/">
+                                        <div class="preview">
+                                            <div class="image-wrap"><div class="image"><img src="img/img2.jpg"></div></div>
+                                        </div>
+                                        <h3 class="name">Logitech Wireless Desktop MK330, (Keybord&amp;mouse),  USB, Black, [920-003995]</h3>
+                                        <div class="price">2 595 <span class="cy">руб</span></div>
+                                    </a>
+                                </div>
+                            <div class="plus">+</div>
+                            <div class="item">
+                                <a href="/catalog/830/komplektuyushchie-pk/multimedia-i-aksessuary_1/web-kamery_1/59747/">
+                                    <div class="preview">
+                                        <div class="image-wrap"><div class="image"><img src="img/img3.jpeg"></div></div>
+                                    </div>
+                                    <h3 class="name">Камера Web Creative Live! Cam Chat HD</h3>
+                                    <div class="price">1 547 <span class="cy">руб</span></div>
+                                </a>
+                            </div>
+                            <div class="plus eq hidden-xs">=</div>
+                            <div class="price-wrap">
+                                <div class="p-wrap">
+                                    <h3 class="label">Вы сохраните <span class="number">164</span> руб</h3>
+                                    <div class="price">16 310 <span class="cy">руб</span></div>
+                                </div>
+
+                                <div class="b-button v-orange-grad cart-button">
+                                    <a href="#" class="link" data-id="60176;52368;59747">Заказать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            <div class="row centered">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="main-slider-look">
+                        <h2>Вы недавно смотрели</h2>
+                        <div class="slide-container">
+                            <div class="slide-canvas own-look">
+                                <div class="slide">
+                                    <div class="b-product">
+                                        <h4>latitude</h4>
+                                        <div class="image-wrap"><div class="image"><img src="img/product1.jpg"></div></div>
+                                        <div class="product-info">
+                                            <div class="number">3550-7690</div>
+                                            <h3><a href="#">Latitude 3550 Core i5-5200U 2.2GHz, 15.6" FHD</a></h3>
+                                        </div>
+                                        <div class="price-wrap">
+                                            <div class="new">27 999 <span class="cy">руб</span></div>
+                                            <div class="old">58 999 <span class="cy">руб</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="b-product">
+                                        <h4>latitude</h4>
+                                        <div class="image-wrap"><div class="image"><img src="img/product1.jpg"></div></div>
+                                        <div class="product-info">
+                                            <div class="number">3550-7690</div>
+                                            <h3><a href="#">Latitude 3550 Core i5-5200U 2.2GHz, 15.6" FHD</a></h3>
+                                        </div>
+                                        <div class="price-wrap">
+                                            <div class="new">27 999 <span class="cy">руб</span></div>
+                                            <div class="old">58 999 <span class="cy">руб</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="b-product">
+                                        <h4>latitude</h4>
+                                        <div class="image-wrap"><div class="image"><img src="img/product1.jpg"></div></div>
+                                        <div class="product-info">
+                                            <div class="number">3550-7690</div>
+                                            <h3><a href="#">Latitude 3550 Core i5-5200U 2.2GHz, 15.6" FHD</a></h3>
+                                        </div>
+                                        <div class="price-wrap">
+                                            <div class="new">27 999 <span class="cy">руб</span></div>
+                                            <div class="old">58 999 <span class="cy">руб</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="slide">
+                                    <div class="b-product">
+                                        <h4>latitude</h4>
+                                        <div class="image-wrap"><div class="image"><img src="img/product1.jpg"></div></div>
+                                        <div class="product-info">
+                                            <div class="number">3550-7690</div>
+                                            <h3><a href="#">Latitude 3550 Core i5-5200U 2.2GHz, 15.6" FHD</a></h3>
+                                        </div>
+                                        <div class="price-wrap">
+                                            <div class="new">27 999 <span class="cy">руб</span></div>
+                                            <div class="old">58 999 <span class="cy">руб</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slide">
+                                    <div class="b-product">
+                                        <h4>latitude</h4>
+                                        <div class="image-wrap"><div class="image"><img src="img/product1.jpg"></div></div>
+                                        <div class="product-info">
+                                            <div class="number">3550-7690</div>
+                                            <h3><a href="#">Latitude 3550 Core i5-5200U 2.2GHz, 15.6" FHD</a></h3>
+                                        </div>
+                                        <div class="price-wrap">
+                                            <div class="new">27 999 <span class="cy">руб</span></div>
+                                            <div class="old">58 999 <span class="cy">руб</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="color-separator"></div>
+    <div class="call-wrap">
+        <div class="container centered ">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-12">
+                    <div class="call-label">У вас остались<br>вопросы? </div>
+                    <a href="#"><span class="js-open-call-form call-link">Напишите нам!</span></a>
+                </div>
+                <div class="col-md-4 col-sm-4 hidden-xs">
+                    <div class="align-wrap">
+                        <div class="title">Мы всегда<br>на связи</div>
+                        <div class="label">Присоединяйтесь к нам</div>
+                        <div class="social">
+                            <a href="#" class="icon-tw"></a>
+                            <a href="#" class="icon-yt"></a>
+                            <a href="#" class="icon-fb"></a>
+                            <a href="#" class="icon-vk"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4 hidden-xs">
+                    <div class="align-wrap">
+                        <div class="title">Методы оплаты</div>
+                        <div class="label">Вы можете оплатить нам</div>
+                        <img class="payment" src="img/payment.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="color-separator"></div>
+    <div class="menu-block">
+        <div class="container">
+            <div class="row hidden-sm visible-xs visible-sm">
+                <div class="col-sm-12 col-xs-12">
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="show-link">Каталог</a>
+                        <div class="dropdown-menu" role="menu">
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="#" class="link">Компьютеры</a></li>
+                                    <li class="item"><a href="#" class="link">Мониторы</a></li>
+                                    <li class="item"><a href="#" class="link">Ноутбуки</a></li>
+                                    <li class="item"><a href="#" class="link">Планшеты ПК и смартфоны</a></li>
+                                    <li class="item"><a href="#" class="link">Серверы</a></li>
+                                    <li class="item"><a href="#" class="link">Телефония</a></li>
+                                    <li class="item"><a href="#" class="link">Компьютеры</a></li>
+                                    <li class="item"><a href="#" class="link">Мониторы</a></li>
+                                    <li class="item"><a href="#" class="link">Ноутбуки</a></li>
+                                    <li class="item"><a href="#" class="link">Планшеты ПК и смартфоны</a></li>
+                                    <li class="item"><a href="#" class="link">Серверы</a></li
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-xs-12">
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="show-link">Магазин</a>
+                        <div class="dropdown-menu" role="menu">
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="partners.html" class="link">Оплата</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Доставка</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Самовывоз</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Гарантии</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Контакты</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Партнерская программа</a></li>
+                                    <li class="item"><a href="partners.html" class="link">О нас</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Новости</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Консультант On-line</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-xs-12">
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="show-link">AstiLine</a>
+                        <div class="dropdown-menu" role="menu">
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="partners.html" class="link">О нас</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Новости</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Консультант On-line</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-xs-12">
+                    <div class="dropdown">
+                        <a data-toggle="dropdown" href="#" class="show-link">Обслуживание</a>
+                        <div class="dropdown-menu" role="menu">
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="#" class="link">Центры обслуживания клиентов</a></li>
+                                    <li class="item"><span class="link">Телефон </span><a href="#" class="link">+7 495 98 165 98</a></li>
+                                    <li class="item"><a href="#" class="link">Безопасность и конфеденциальность</a></li>
+                                    <li class="item"><a href="#" class="link">Скидки и акциия</a></li>
+                                    <li class="item"><a href="#" class="link">Проверка товаров</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="column-title">Каталог</div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="#" class="link">Компьютеры</a></li>
+                                    <li class="item"><a href="#" class="link">Мониторы</a></li>
+                                    <li class="item"><a href="#" class="link">Ноутбуки</a></li>
+                                    <li class="item"><a href="#" class="link">Планшеты ПК и смартфоны</a></li>
+                                    <li class="item"><a href="#" class="link">Серверы</a></li>
+                                    <li class="item"><a href="#" class="link">Телефония</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="#" class="link">Расходные материалы</a></li>
+                                    <li class="item"><a href="#" class="link">Системы хранения данных</a></li>
+                                    <li class="item"><a href="#" class="link">Структурированные кабельные сети</a></li>
+                                    <li class="item"><a href="#" class="link">Сетевое оборудование</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="column-title">Магазин</div>
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="partners.html" class="link">Оплата</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Доставка</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Самовывоз</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Гарантии</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Контакты</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Партнерская программа</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="column-title">AstiLine</div>
+                            <div class="column-block">
+                                <ul class="bottom-menu">
+                                    <li class="item"><a href="partners.html" class="link">О нас</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Новости</a></li>
+                                    <li class="item"><a href="partners.html" class="link">Консультант On-line</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 hidden-sm hidden-xs">
+                    <div class="column-title">Обслуживание</div>
+                    <div class="column-block">
+                        <ul class="bottom-menu">
+                            <li class="item"><a href="#" class="link">Центры обслуживания клиентов</a></li>
+                            <li class="item"><span class="link">Телефон </span><a href="#" class="link">+7 495 98 165 98</a></li>
+                            <li class="item"><a href="#" class="link">Безопасность и конфеденциальность</a></li>
+                            <li class="item"><a href="#" class="link">Скидки и акциия</a></li>
+                            <li class="item"><a href="#" class="link">Проверка товаров</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="copyright-wrap"><div class="copyright">www.astiline.ru, г. Москва, Волоколамское шоссе, д. 73 телефон: +7 (495) 98-165-98, эл. почта: <a href="#">info@astiline.ru</a><br>© 2013 «www.astiline.ru». Все права защищены.</div></div>
+                </div>
+            </div>
+        </div>
+     </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/docs.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="source/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".item-image a, .b-item-additional-images a").fancybox();
+                                    $('.b-item-additional-images').owlCarousel({
+                'items' : 4,
+                'loop': false,
+                'slideBy': 4,
+                itemsDesktop : [1199,4],
+                  itemsDesktopSmall : [979,3],
+                  itemsTablet : [768,2],
+                  itemsMobile : [400,1]
+            });
+        });
+</script>
+<script>
+    $('.dropdown-toggle').dropdown();
+</script>
+</body>
+</html>
